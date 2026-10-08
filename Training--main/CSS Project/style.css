@@ -1,0 +1,93 @@
+* {
+    box-sizing: flex;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-card {
+    width: 300px;
+    min-height: 385px;
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px lightgray;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px 25px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: white;
+    color: white;
+    border: flex;  
+    display: flex;
+    justify-content: center;
+    align-items: Left;
+
+    font-size: 36px;
+    margin-bottom: 18px;
+}
+
+h1 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 7px;
+}
+
+.role {
+    font-size: 240;
+    color: darkcyan;
+    margin-bottom: 27px;
+}
+
+.description {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.8;
+    color:black;
+    margin-bottom: 17px;
+}
+
+.skills {
+    
+  display: flex;
+    gap: 9px;
+    margin-bottom: 22px;
+}
+
+.skills span {
+    background:goldenrod;
+    color: white;
+    font-size: 12px;
+    padding: 6px 13px;
+    border-radius: 20px;
+}
+
+button {
+    border: flex;
+    background:black;
+    color: white;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background:darkcyan;
+}
